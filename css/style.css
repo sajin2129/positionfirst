@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Playfair Display', serif;
+}
+img{
+	width:100%;
+}
+.team-sec{
+	background-image:url("../image/bg.jpg");
+	
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+	padding:25px;
+}
+.title
+{
+	text-align:center;
+	line-height:50px;
+}
+.title h3
+{
+	font-size:20px;
+	color:red;
+}	
+.img-row-sec{
+	display: flex;
+    gap: 16px;	
+}
+
+
+.img-col-sec{
+	width: 25%;
+    border: 2px solid white;
+	text-align:center;
+	padding:20px;
+	background-color: white;
+	position:relative;
+}
+
+.img-col-sec h2{
+	padding-top: 30px ;
+}
+.card-icon span{
+	background-color: white;
+    padding: 16px;
+    border-radius: 50%;	
+	font-size:20px;
+}
+.card-icon{
+position: absolute;
+    top: 235px;
+    left: 0;
+    right: 0;
+}
+p{
+	color:#bdbec0;
+	font-size:15px;
+	font-weight:bold;
+}
